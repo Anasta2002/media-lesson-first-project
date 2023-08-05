@@ -1,0 +1,46 @@
+.container {
+  width: 50%;
+  min-height: 200px;
+  background-color: #212121;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 30px;
+  float: right;
+}
+
+@media (max-width: 990px) {
+  .container {
+    margin: 20px auto;
+    min-width: 200px;
+    float: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin: 20px 10px 20px 60px;
+    width: 300px;
+  }
+}
+
+.container button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 9px;
+  height: 63px;
+  background-color: black;
+  border: none;
+  color: #f2f2f2;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
+.text {
+  padding: 20px;
+}
