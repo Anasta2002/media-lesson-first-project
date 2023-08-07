@@ -13,27 +13,12 @@
   float: right;
 }
 
-@media (max-width: 990px) {
-  .container {
-    margin: 20px auto;
-    min-width: 200px;
-    float: none;
-  }
-}
-
-@media (max-width: 500px) {
-  .container {
-    margin: 20px 10px 20px 60px;
-    width: 300px;
-  }
-}
-
 .container button {
   width: 100%;
   display: flex;
   justify-content: center;
   border-radius: 9px;
-  height: 63px;
+  min-height: 63px;
   background-color: black;
   border: none;
   color: #f2f2f2;
@@ -43,4 +28,10 @@
 
 .text {
   padding: 20px;
+}
+
+@media (max-width: 990px) {
+  .container {
+    min-width: 90%;
+  }
 }

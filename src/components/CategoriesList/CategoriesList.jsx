@@ -21,7 +21,7 @@ export default function CategoriesList() {
   };
 
   return (
-    <div style={{display: 'flex'}}>
+    <div className={s.wrapper}>
         <div className={s.container}>
           <h3>Task 1. List of categories</h3>
             {categories.map((category, index) => 
